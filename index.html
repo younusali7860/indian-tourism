@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionHome">
+        <div class="bg-container-first ">
+            <div class="card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">plan your trip wherever you want to go, start traveling and create a bag full of memories.</p>
+                <button class="button"onclick="display('sectionFavouritePlaces')" > Get started</button>
+            </div>
+        </div>
+  </div>
+  <div id="sectionFavouritePlaces">
+    <div class="bg-container">
+      <h1 class="favourite-places">
+          Favourite places</h1>
+          <div>
+              <div class="favourite-place-card-container" onclick="display('sectionTajMahalDetailedView')" >
+                  <div class="favourite-place-card-heading">
+                      <h2 class="title-card" >Taj Mahal</h2>
+                      <p class="facourite-palce-card-description">If there was just one symbol to represent all of India,
+                          it would be the Taj Mahal. The Taj Mahal was built by the Mughal emperor Shah Jahān (reigned
+                          1628–58) to immortalize his wife Mumtaz Mahal . </p>
+                  </div>
+                  <img class="favourite-place-card-image"
+                      src="https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg" alt="">
+                      
+              </div>
+          </div>
+          
+          
+          <div>
+              <div class="favourite-place-card-container">
+                  <div class="favourite-place-card-heading">
+                      <h2 class="title-card" >Golden Temple</h2>
+                      <p class="facourite-palce-card-description">The Golden Temple is a and a circumambulation path around the pool.
+                           The four entrances to the gurudwara symbolises the Sikh belief in equality and the Sikh view that all people are welcome into their holy place </p>
+                  </div>
+                  <img class="favourite-place-card-image"
+                      src="https://assets.architecturaldigest.in/photos/60081ffe274aca243711afab/master/w_1600,c_limit/Golden_Temple_View.jpg" alt="">
+              </div>
+          </div>
+          
+
+          <div>
+              <div class="favourite-place-card-container">
+                  <div class="favourite-place-card-heading">
+                      <h2 class="title-card">Mysore Palace</h2>
+                      <p class="facourite-palce-card-description">The first iteration of this palace was built in the 14th century by Yaduraya Wodeyar, after which this palace has been reconstructed and 
+                          renovated several times, to become the architectural and artistic marvel it is today. </p>
+                  </div>
+                  <img class="favourite-place-card-image"
+                      src="https://eastindiantraveller.files.wordpress.com/2021/02/mysorepalacesideview.jpeg" alt="">
+              </div>
+          </div>
+          
+
+          <div>
+              <div class="favourite-place-card-container">
+                  <div class="favourite-place-card-heading">
+                      <h2 class="title-card" >Varanasi Temple</h2>
+                      <p class="facourite-palce-card-description">Also known as the Golden Temple, it is dedicated to Lord shiva, the presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga, 
+                          the fiery pillar of light by which shiva manifested has supremacy over others gods </p>
+                  </div>
+                  <img class="favourite-place-card-image"
+                      src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/c8/18/60/tibetan-temple.jpg?w=1200&h=-1&s=1" alt="">
+              </div>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionHome')">
+            back
+          </button>
+          
+  </div>
+  </div>
+  <div id="sectionTajMahalDetailedView" >
+    <div class="detailed-view">
+        <h1 class="title">DETAILED VIEW</h1>
+        <div class="detailed-view-card-container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="detailed-view-card-text-container">
+                <h1 class="detailed-view-card-heading">Taj Mahal</h1>
+                <p class="detailed-view-card-paragraph">
+                    The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in
+                    the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan (r. 1628–1658)
+                    to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan
+                    himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and
+                    a guest house, and is set in formal gardens bounded on three
+                    sides by a crenellated wall.
+                    Construction of the mausoleum was essentially completed in 1643, but work continued on other phases
+                    of the project for another 10 years. The Taj Mahal complex is believed to have been completed in its
+                    entirety in 1653 at a cost estimated.
+                </p>
+
+            </div>
+            <button class="btn btn-primary" onclick="display ('sectionHome')" >
+                back to Home
+            </button>
+            <button class="btn btn-dark" onclick="display ('sectionFavouritePlaces')">
+                back
+            </button>
+
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>  
+</body>
+</html>
